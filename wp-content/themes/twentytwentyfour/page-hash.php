@@ -14,6 +14,7 @@
         <button>SEND!</button>
     </form>
 
+    <h1>HEYOOOO</h1>
     <?php
     $passwordPlainFromForm =  $_GET["formPassword"];
     $hashedPasswordFromForm = md5($passwordPlainFromForm);
